@@ -8,22 +8,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", '7041911'))
-API_HASH = getenv("API_HASH", 'abab2561c71e3004a55d4ff9763d5383')
+API_ID = int(getenv("API_ID", "7041911"))
+API_HASH = getenv("API_HASH", "abab2561c71e3004a55d4ff9763d5383")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", 'mongodb+srv://musicbot:musicbot@cluster0.wtd5y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicbot:musicbot@cluster0.wtd5y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", '-1002210330887'))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001956199528'))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002210330887"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001956199528"))
 
 # Get this value Telegram id
 OWNER_ID = int(getenv("OWNER_ID", "995086208"))
